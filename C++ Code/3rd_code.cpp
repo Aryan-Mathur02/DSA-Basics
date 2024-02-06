@@ -1,0 +1,19 @@
+#include<iostream>
+using namespace std;
+int main(){
+  int principle,time,rate;
+
+  cout<<"Enter the principle amount : ";
+  cin>>principle;
+
+  cout<<"Enter the time : ";
+  cin>>time;
+
+  cout<<"Enter the rate : ";
+  cin>>rate;
+
+  int si=(principle*time*rate)/100;
+
+  cout<<"Simple Interest is : "<<si;
+  return 0;
+}
